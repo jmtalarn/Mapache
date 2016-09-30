@@ -40,7 +40,7 @@
 							By <strong><a href="{{url}}">{{name}}</a> — </strong>
 						{{/author}}
 							<time class="timestamp" datetime="{{date format='YYYY-MM-DD'}}">{{date published_at timeago="true"}}</time>
-							in {{tags limit="1"}}
+							in {{!--tags limit="1"--}}{{tags separator=" · "}}
 						</div>
 					</header>
 
